@@ -1,0 +1,42 @@
+.map{
+    height: 150px;
+    width: 1140px;
+    background-image:url(../img/Group\ 48\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_menu{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+li{
+    list-style-type: none;
+}
+a:hover{
+    color: #94CFFF;
+
+}
+a{
+    color: #FFFFFF;
+}
+
+
+.header{
+    background-image: url(/img/Group\ 48\ 1.png);
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 1440px;
+
+}

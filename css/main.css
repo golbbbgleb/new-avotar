@@ -1,0 +1,12 @@
+.color{
+font-family: inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+padding: 82px 82px 24px 24px;
+}
+.header_menu{
+    display: flex;
+    flex-direction: row;
+}

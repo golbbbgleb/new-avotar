@@ -1,0 +1,25 @@
+input[ type=checkbox]{display: none;
+
+}
+label {
+cursor: pointer;
+width: 50px;
+height: 25px;
+display: block;
+border: 1px solid #ffff;
+position: relative; border-radius: 100px ;
+}
+label::after {
+content:"";
+position: absolute;
+width: 18px; 
+height: 18px;
+border-radius: 100%;
+top: 3px;
+right: 3px;
+background-color: #ffff;
+}
+input:checked+label::after{
+    transform: translateX(100%);
+    left: calc(100% -2px);
+}
