@@ -15,11 +15,12 @@ position: absolute;
 width: 18px; 
 height: 18px;
 border-radius: 100%;
-top: 3px;
-right: 3px;
+top: 2px;
+right: 1px;
 background-color: #ffff;
 }
 input:checked+label::after{
     transform: translateX(100%);
-    left: calc(100% -2px);
+    right: calc(100% - 2px);
+
 }

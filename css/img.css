@@ -1,0 +1,15 @@
+.map{
+    height: 150px;
+    background-image:url(../img/Group\ 48\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.logo_img{
+    background-image:url(../img/avatar-2-6235acaebf926\ 2.png);
+    display: block;
+    Height:72px;
+}
+.header{
+    background: url(../img/kartinka.png) center/cover no-repeat;
+}

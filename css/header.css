@@ -1,42 +1,72 @@
-.map{
-    height: 150px;
-    width: 1140px;
-    background-image:url(../img/Group\ 48\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-}
 
-.color{
+.header_menu{
+    list-style-type: none;
     display: flex;
+    font-size: 14px;
+    align-items: center;
+    color:#FFFFFF;
+    Width:78px;
+    Height:24px;
+    display: flex;
+    margin: 0 auto;
+}
+.header_menu>li{
+    margin-left: 38px;
+}
+.nav_btn{
+    width: 141px;
+    height: 41.69px;
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    color: #26C6EA;
+text-align: center;
+font-family: HeadlandOne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    Width :298px;
+Height :96px;
+}
+.switch{
+    justify-content: flex-start;
+    list-style: flex;
+    list-style-type: none;
     justify-content: space-between;
     align-items: center;
-    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    display: block;
 }
-.header_menu{
-    text-decoration: none;
-    list-style-type: none;
-    
+.anton{
+    display: flex;
+    align-items: center; 
+    gap: 50px;
 }
-li{
-    list-style-type: none;
+.anton a:hover{
+    color: #26C7EA;
 }
-a:hover{
+.header_link{
     color: #94CFFF;
-
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
-a{
-    color: #FFFFFF;
+.header_overlay{
+    border-bottom: 3px solid #FFF;
+    background: rgba(43, 74, 97, 0.87);
 }
-
-
-.header{
-    background-image: url(/img/Group\ 48\ 1.png);
-    padding: 0;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 1440px;
-
+.header .container{
+display: flex;
+align-items:center;
+justify-content: space-between;
 }
