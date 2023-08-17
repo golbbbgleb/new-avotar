@@ -2,6 +2,8 @@
 @import url(./img.css);
 @import url(./madia.css);
 @import url(./main.css);
+@import url(./h.css);
+@import url(./lang.css);
 @import url(./switch.css);
 
 .header_switcher{
