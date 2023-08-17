@@ -13,19 +13,22 @@
 .header_menu>li{
     margin-left: 38px;
 }
-.nav_btn{
+.nav_btn {
     width: 141px;
     height: 41.69px;
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
     background: #0B0E66;
     color: #26C6EA;
-text-align: center;
-font-family: HeadlandOne;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 1308px;
+    top: 15px;
 }
 .page{
     padding-top: 40px;
@@ -69,4 +72,31 @@ line-height: normal;
 display: flex;
 align-items:center;
 justify-content: space-between;
+}
+.header_list a {
+    color: #FFFFFF;
+    font-size: large
+}
+
+.header_list a:hover {
+    color: #94CFFF
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+
 }
