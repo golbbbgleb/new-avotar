@@ -1,0 +1,49 @@
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background: url(../../img/bag.png) center/cover no-repeat;
+    color:#FFF;
+}
+
+.footer_overlay {
+    border-bottom: 3px solid #FFF;
+    background: rgba(43, 74, 97, 0.87);
+    padding: 39px 0px;
+}
+
+.footer_line {
+    width: 2px;
+    background-color: #fff;
+    height: 150px;
+}
+
+.footer_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color:#FFF;
+}
+
+.footer span {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+    margin-top: 35px;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    margin-top: 40px;
+}

@@ -3,6 +3,7 @@
 @import url(./promo.css);
 @import url(./img.css);
 @import url(./main.css);
+@import url(./center.css);
 @import url(./h.css);
 @import url(./lang.css);
 @import url(./switch.css);
@@ -10,7 +11,7 @@
 @import url(./logo.css);
 @import url(./join.css);
 @import url(./trailer.css);
-
+@import url(./futer.css);
 
 
 a {

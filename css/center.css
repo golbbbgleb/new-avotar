@@ -1,0 +1,12 @@
+.trailer {
+    background: url(../img/Group\ 43.png) center/cover no-repeat;
+    height: 741px;
+    padding: 330px 0;
+}
+
+.trailer_btn {
+    width: 260px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
