@@ -1,0 +1,33 @@
+.join {
+    background: url(../img/avatar_lox.png) center/cover no-repeat;
+color:#FFFFFF;
+}
+
+.join_btn {
+    margin-top: 42px;
+    width: 260px;
+    padding: 10px 30px;
+    font-size: 24px;
+    height: 80px;
+
+}
+
+.join_box {
+    padding: 180px 0;
+}
+
+.join img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.join_block-left {
+    max-width: 376px;
+}
+
+.join_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

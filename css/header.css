@@ -1,85 +1,38 @@
 
-.header_menu{
-    list-style-type: none;
-    display: flex;
-    font-size: 14px;
-    align-items: center;
-    color:#FFFFFF;
-    Width:78px;
-    Height:24px;
-    display: flex;
-    margin: 0 auto;
-}
-.header_menu>li{
-    margin-left: 38px;
-}
-.nav_btn {
-    width: 141px;
-    height: 41.69px;
-    border-radius: 45px 0px;
-    border: 3px solid #26C7EA;
-    background: #0B0E66;
-    color: #26C6EA;
-    text-align: center;
-    font-family: HeadlandOne;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    left: 1210px;
-    top: 15px;
-}
-.page{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    position: relative;
-    Width :298px;
-Height :96px;
-}
-.switch{
-    justify-content: flex-start;
-    list-style: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-start;
-    display: block;
-}
-.anton{
-    display: flex;
-    align-items: center; 
-    gap: 50px;
-}
-.anton a:hover{
-    color: #26C7EA;
-}
-.header_link{
-    color: #94CFFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-.header_overlay{
+.header {
     border-bottom: 3px solid #FFF;
-    background: rgba(43, 74, 97, 0.87);
-}
-.header .container{
-display: flex;
-align-items:center;
-justify-content: space-between;
-}
-.header_list a {
-    color: #FFFFFF;
-    font-size: large
+    background: url(../img/kartinka.png) center/cover no-repeat;
+
 }
 
-.header_list a:hover {
-    color: #94CFFF
+.header .overlay {
+    padding: 39px 0;
+    background: rgba(43, 74, 97, 0.87);
+}
+
+
+.header_menu a {
+    display: block;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.5s;
+
+}
+.header_menu a:hover {
+    color: #94CFFF;
+    scale: 1.2;
+    font-weight: 600;
+}
+
+.header_switch {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Hammersmith One;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .header .container {
@@ -88,15 +41,14 @@ justify-content: space-between;
     align-items: center;
 }
 
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
 
-.header_list {
+.header_block {
     display: flex;
     align-items: center;
     gap: 50px;
-}
-.header_left {
-    display: flex;
-    align-items: center;
-    gap: 90px;
-
 }
