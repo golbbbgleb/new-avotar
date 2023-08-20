@@ -27,6 +27,7 @@
     justify-content: center;
     gap: 20px;
     color:#FFF;
+
 }
 
 .footer span {
@@ -46,4 +47,24 @@
     gap: 15px;
     align-items: flex-start;
     margin-top: 40px;
+    
+}
+.footer_box h5 {
+    color: #FFF;
+    margin: 0;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_box a{
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

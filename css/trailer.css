@@ -1,11 +1,11 @@
-.trailer_button {
+ .trailer .trailer_btn {
     width: 260px;
     height: 80px;
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
     background: #0B0E66;
     color: #26C7EA;
-    text-align: justify;
+    text-align: center;
     font-family: HeadlandOne;
     font-size: 24px;
     font-style: normal;
@@ -16,7 +16,7 @@
     
     .trailer_button a {
         color: #26C7EA;
-    text-align: justify;
+    text-align: center;
     font-family: HeadlandOne;
     font-size: 24px;
     font-style: normal;
@@ -34,10 +34,11 @@
     
     
     .trailer {
-        background: url(../../img/bag3.png) center / cover no-repeat;
-        height: 741px;
-    }
-    
+        background: url(../img/trailer-bakraund.png) center/cover no-repeat;
+          height: 741px;
+          
+
+      }
     
     .trailer
     .container  {

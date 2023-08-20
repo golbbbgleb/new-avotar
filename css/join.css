@@ -31,3 +31,16 @@ color:#FFFFFF;
     justify-content: space-between;
     align-items: center;
 }
+.join .descr{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.join_social_list{
+    display: flex;
+    flex-direction: column;
+  gap: 15px;
+}
